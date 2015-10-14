@@ -1,5 +1,5 @@
 <b>Todo app Demo</b><br>
-(Sample of your weekly project submission README)
+(Sample of project submission README)
 <br>
 This is an Android demo application for adding Todo task.
 
