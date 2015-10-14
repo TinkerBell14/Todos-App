@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context="com.example.sqllitedemo.Edit">
+
+    <item android:id="@+id/action_editButton"
+        android:icon="@drawable/save11"
+        android:title="@string/action_save"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/action_deleteButton"
+        android:icon="@drawable/delete9"
+        android:title="@string/action_delete"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/action_cancel"
+        android:icon="@drawable/cancel9"
+        android:title="@string/action_cancel"
+        app:showAsAction="always"
+        />
+
+</menu>

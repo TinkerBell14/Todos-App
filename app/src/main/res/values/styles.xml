@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <color name="custom_theme_color_windowbackground">#F6E0CE</color>
+    <color name="custom_theme_color_actionBar">#F58834</color>
+    <color name="custom_theme_Textcolor_actionBar">#000000</color>
+
+    <style name="Theme.CustomTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowBackground">@color/custom_theme_color_windowbackground</item>
+        <item name="android:actionBarStyle">@style/Theme.ActionBarStyle</item>
+        <item name="actionBarStyle">@style/Theme.ActionBarStyle</item>
+    </style>
+
+    <style name="Theme.ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Setting values in the default namespace affects API levels 7-11 -->
+        <item name="android:background">@color/custom_theme_color_actionBar</item>
+        <item name="background">@color/custom_theme_color_actionBar</item>
+
+    </style>
+
+
+
+</resources>
