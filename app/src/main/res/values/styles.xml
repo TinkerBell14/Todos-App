@@ -14,6 +14,8 @@
         <item name="android:windowBackground">@color/custom_theme_color_windowbackground</item>
         <item name="android:actionBarStyle">@style/Theme.ActionBarStyle</item>
         <item name="actionBarStyle">@style/Theme.ActionBarStyle</item>
+
+
     </style>
 
     <style name="Theme.ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
@@ -23,6 +25,15 @@
 
     </style>
 
+    <style name="spinner_style" >
+        <item name="android:background">@drawable/dropdown_bg</item>
+        <item name="android:colorBackground">#ffcc00</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
 
-
+    </style>
 </resources>

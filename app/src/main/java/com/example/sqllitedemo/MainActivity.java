@@ -28,7 +28,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-         dbHandler = new MyDBHandler(this, null, null, 7);
+        //Intent intent = new Intent(this, DatePicker2.class);
+        //startActivity(intent);
+
+         dbHandler = new MyDBHandler(this, null, null, 15);
         ArrayList<Task> tasks = dbHandler.getTasks();
         Task[] arrTask = tasks.toArray(new Task[tasks.size()]);
 

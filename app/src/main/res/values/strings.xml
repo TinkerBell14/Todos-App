@@ -12,5 +12,13 @@
     <string name="title_activity_view_task">ViewTask</string>
     <string name="title_activity_edit">Edit</string>
     <string name="action_delete">delete</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_test_date_picker">TestDatePicker</string>
+    <string name="title_activity_date_picker">DatePicker</string>
+    <string name="title_activity_date_picker2">DatePicker2</string>
+    <string name="from_date">FromDate</string>
+    <string name="action_share">Share</string>
+
+
 
 </resources>
