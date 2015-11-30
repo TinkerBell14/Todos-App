@@ -3,7 +3,7 @@
 <br>
 This is an Android demo application for adding Todo task.
 
-Time spent: 5 hours spent in total
+Time spent: 15 hours spent in total
 
 Completed user stories:
 <br>
